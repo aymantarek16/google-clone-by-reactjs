@@ -13,12 +13,12 @@ const Search = ({ hidebuttons }) => {
   const inputRef = useRef();
 
   // local storage for term to keep search history
-  const initialState = JSON.parse(localStorage.getItem("input"));
-  const [input, setInput] = useState(initialState);
+  // const initialState = JSON.parse(localStorage.getItem("input"));
+  // const [input, setInput] = useState(initialState);
 
-  useEffect(() => {
-    localStorage.setItem("input", JSON.stringify(input));
-  }, [input]);
+  // useEffect(() => {
+  //   localStorage.setItem("input", JSON.stringify(input));
+  // }, [input]);
 
   // focus on input when page loads
   useEffect(() => {
