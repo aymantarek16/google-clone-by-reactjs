@@ -14,7 +14,7 @@ const Search = ({ hidebuttons }) => {
 
   // local storage for term to keep search history
   // const initialState = JSON.parse(localStorage.getItem("input"));
-  // const [input, setInput] = useState(initialState);
+  const [input, setInput] = useState('');
 
   // useEffect(() => {
   //   localStorage.setItem("input", JSON.stringify(input));
