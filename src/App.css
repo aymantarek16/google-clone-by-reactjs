@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#eee, gray);
+  border-radius: 10px;
+  height: 150px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(gray, #eee);
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
