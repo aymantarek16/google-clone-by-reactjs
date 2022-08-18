@@ -1,11 +1,22 @@
 # Google Clone By ReactJS 
 
-### Technologies used : 
+Full Responseve Design 
 
-1- React Hooks
+### Technologies Used : 
 
-2- Context Api
+---
 
-3- Material Ui Libarary
+1. React Hooks
 
-4- Css
+2. Context Api
+
+3. Material Ui Libarary
+
+4. Css
+
+
+
+
+ 
+
+![preview] (https://i.imgur.com/wmsucde.jpeg)
